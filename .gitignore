@@ -1,0 +1,10 @@
+delete/
+finans_model/
+results/
+logs/
+
+
+__pycache__/
+*.py[cod]
+
+
