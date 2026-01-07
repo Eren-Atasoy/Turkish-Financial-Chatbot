@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 # 1. Veriyi Yükle
-df = pd.read_csv('final_data_for_training.csv')
+df = pd.read_csv('training_data_cleaned.csv')
 
 # 2. Etiketleri Sayısal Değerlere Dönüştür
 label_map = {
